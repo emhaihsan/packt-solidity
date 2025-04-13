@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "finalize",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/foundation/8-arithmetic-operators.sol": "FinalExercise"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/foundation/8-arithmetic-operators.sol": {
+			"keccak256": "0x4aa600b3fff1575d973dff46c25f02bc45b952c68c58da05a7e052cd70ab9300",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e57c9966a1f6ed2220f6f5aea3ca7103f6c65f8a2c566655f4e510648ce17cc8",
+				"dweb:/ipfs/QmTLPxQeDkQFwJ5dceFfwcK3KJv7rdRvjG18xh4jCfygPs"
+			]
+		}
+	},
+	"version": 1
+}

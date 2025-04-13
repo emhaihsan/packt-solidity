@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_numbers",
+						"type": "uint256"
+					}
+				],
+				"name": "checkForEvenNumber",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_numbers",
+						"type": "uint256"
+					}
+				],
+				"name": "loopThroughEven",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/foundation/9-loop.sol": "myLoopingPracticeContract"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/foundation/9-loop.sol": {
+			"keccak256": "0x7a7f0df9dbb236438612e867ae46c478872dc7db928b3af06a51d5fe61c49675",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d66d6dce33a51a5337e7e3dad5b85e9b7ae5052f16f39af39a025afa4f6a37a4",
+				"dweb:/ipfs/QmP3r2P7jVuxf47DpF3ExeXTKXUHqfMGVWmf2uL3sNJeUR"
+			]
+		}
+	},
+	"version": 1
+}
