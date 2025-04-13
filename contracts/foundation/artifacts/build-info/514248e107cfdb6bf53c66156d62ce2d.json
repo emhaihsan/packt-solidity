@@ -1,0 +1,72 @@
+{
+	"id": "514248e107cfdb6bf53c66156d62ce2d",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.29",
+	"solcLongVersion": "0.8.29+commit.ab55807c",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"contracts/foundation/2-pragma-solidity.sol": {
+				"content": "// SPDX-License-Identifier: MIT\n\n\npragma solidity >= 0.7.0 < 0.9.0;\n\n// Exercise: create a new solidity file called exercise-assignment\n// Instantiate the version of 0.5.0\n// Bonus: increasee the range version from 0.5.0 up to 0.6.3\n\n// we are specifying the compiler version of solidity ranging and including from \n// 0.7.0 up to and not including 0.9.0\n\n// If we want to write solidity code we first create a new file and assign the type of data file with .sol\n\n// Pragma is generatlly the first line of code within any Solidity file.\n// For example: pragma solidity ^0.8.0;\n// >= means greater than or equal to... / ^\n// < less than sign..\n\n/*\nIn Solidity (the programming language for Ethereum smart contracts), \nthe pragma statement defines the default version of the Solidity compiler to be used. \nThepragma is a directive that specifies the version of the compiler to use when compiling your contract code. \nIt's essential to include this line at the top of your solidity file, as it helps prevent compatibility issues between different versions.\n*/\n\n"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			},
+			"remappings": []
+		}
+	},
+	"output": {
+		"sources": {
+			"contracts/foundation/2-pragma-solidity.sol": {
+				"ast": {
+					"absolutePath": "contracts/foundation/2-pragma-solidity.sol",
+					"exportedSymbols": {},
+					"id": 2,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								">=",
+								"0.7",
+								".0",
+								"<",
+								"0.9",
+								".0"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "34:33:0"
+						}
+					],
+					"src": "34:1024:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

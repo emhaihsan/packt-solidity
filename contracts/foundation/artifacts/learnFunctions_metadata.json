@@ -1,0 +1,133 @@
+{
+	"compiler": {
+		"version": "0.8.29+commit.ab55807c"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "addNewValues",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "addValues",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "numA",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "numB",
+						"type": "uint256"
+					}
+				],
+				"name": "divideCalculator",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "numA",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "numB",
+						"type": "uint256"
+					}
+				],
+				"name": "multiplyCalculator",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "closedDoor",
+						"type": "bool"
+					}
+				],
+				"name": "remoteControlOpen",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/foundation/5-functions.sol": "learnFunctions"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/foundation/5-functions.sol": {
+			"keccak256": "0xb7360f01f6707e94bf15e22fd9315e20b6fe16503b155cff7cdc9cb85e44dc8f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a7565be76d356875e5ffe3ab7d23b0803dc31141fab344135ca1454f6c1ff056",
+				"dweb:/ipfs/Qmd7oDxRXRVKLA4J9pWpeyLRA5nBKXCrRHqLE7URw39AE9"
+			]
+		}
+	},
+	"version": 1
+}
