@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					}
+				],
+				"name": "callFallBack",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					}
+				],
+				"name": "transferToFallBack",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/2-indepth/12-fallback.sol": "SendToFallBack"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/2-indepth/12-fallback.sol": {
+			"keccak256": "0xd3cb9a3dfd1c9d0f7af114d191da34e400eb3ba6d8515c5f6bdc8b8c1b6b4c46",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9d2b79e31961bb9fe83605a94c7c35319bd16c6bd07e194f2afa62b06787668d",
+				"dweb:/ipfs/QmdVgRdLhBf3Bj5SDBXX1evZqkWJ3Ns1U2ELW52eWjaqYJ"
+			]
+		}
+	},
+	"version": 1
+}
